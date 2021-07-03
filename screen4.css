@@ -1,0 +1,142 @@
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	color: inherit;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.left-tab{
+	width: 25%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	margin-right: 2px;
+}
+.right-tab{
+	width: 75%;
+	height: 100%;
+	background-color: white;
+}
+.left-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name{
+	height: 80px !important;
+	font-size: 2.5rem !important;
+}
+#sub-tab{
+	width: 100%;
+	height: 60px;
+	color: white;
+	font-size: 1.3rem;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	
+	color: white;
+	display: flex;
+}
+.heading{
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	letter-spacing: 4px;
+	background-color: black;
+	width: 80%;
+	margin-right: 2px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.user{
+	width: 20%;
+	background-color: black;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-user{
+	font-size: 2.5rem;
+	margin-right: 10px;
+}
+.main-content{
+	width: 25rem;
+	margin-left: 2rem;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+#report-type{
+	margin-top: 1.25rem;
+	font-size: 1.75rem;
+	font-weight: 400;
+	letter-spacing: 8px;
+	width: 30rem;
+	height: 50px;
+	text-align: center;
+	clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+	background-color: rgba(0, 0, 0, .8);
+	color: white;
+	border-radius: 10px;
+}
+.rows{
+	
+	width: 25rem;
+	margin-bottom: 2rem;
+}
+.report-name{
+	width: 25rem;
+	height: 45px;
+	margin-top: 2rem;
+	border: none;
+	text-decoration: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.report-name::placeholder{
+	letter-spacing: 4px;
+	padding-left: 20px;
+	font-weight: 500;
+}
+#alerttime{
+	display: flex;
+	justify-content: space-between;
+}
+#dropdownMenu2{
+	min-width: 10rem;
+	font-size: 1.12rem;
+    letter-spacing: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.description{
+	width: 25rem;
+	height: 120px;
+	border: none;
+	text-decoration: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.description::placeholder{
+	letter-spacing: 4px;
+	padding-left: 20px;
+	font-weight: 500;
+}
+.buttonrow{
+	display: flex;
+	justify-content: space-between;
+}
+button{
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

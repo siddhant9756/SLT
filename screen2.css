@@ -1,0 +1,166 @@
+
+a{
+	text-decoration: none;
+	color: inherit;
+} 
+a:hover{
+	color: inherit;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.left-tab{
+	width: 25%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	margin-right: 2px;
+}
+.right-tab{
+	width: 75%;
+	height: 100%;
+	background-color: white;
+}
+.left-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name{
+	height: 80px !important;
+	font-size: 2.5rem !important;
+}
+#sub-tab{
+	width: 100%;
+	height: 60px;
+	color: white;
+	font-size: 1.3rem;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	margin-bottom: 2px;
+	color: white;
+	display: flex;
+}
+.heading{
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	letter-spacing: 4px;
+	background-color: black;
+	width: 80%;
+	margin-right: 2px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.user{
+	width: 20%;
+	background-color: black;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-user{
+	font-size: 2.5rem;
+	margin-right: 10px;
+}
+.sub-header{
+	width: 100%;
+	color: white;
+	font-size: 1.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.all-reports{
+	width: 15%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	border-radius: 6px;
+	align-items: center;
+	margin-right: 1.5px;
+}
+
+.unscheduled{
+	width: 15%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	border-radius: 6px;
+	align-items: center;
+	margin-right: 1.5px;
+}
+.scheduled{
+	width: 15%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	border-radius: 6px;
+	align-items: center;
+	margin-right: 1.5px;
+}
+.search-box{
+	width: 40%;
+	height: 50px;
+	margin-right: 1px;
+}
+.create-report{
+	width: 15%;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	border-radius: 6px;
+	align-items: center;
+}
+.reports{
+	padding: 10px 30px;
+}
+.report-heading{
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+}
+.main-content{
+	display: flex;
+	justify-content: space-around;
+}
+.sub-heading{
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.report1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	height: 200px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.create-new-report{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	height: 200px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.fa-plus-circle{
+	font-size: 3rem;
+	margin-bottom: 5px;
+}
