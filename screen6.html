@@ -88,31 +88,162 @@
                         New Module
                     </div>
                     <div class="generalfilter">
-                            <button id="general" class="btn btn-dark">General</button>
-                            <button id="filter" class="btn btn-dark">Filter</button>
+                        <button id="general" class="btn btn-dark">General</button>
+                        <button id="filter" class="btn btn-dark">Filter</button>
                     </div>
-                    <div class="alert-selection">
-                        <div class="alerts">
-                            Alert Selection
+                    <div id="generalview">
+                        <div class="alert-selection">
+                            <div class="alerts">
+                                Alert Selection
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Alert
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Brand 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 4</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 5</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <button id="alert-link" class="btn btn-dark">Add Alert</button>
+                        <div class="segmentation">
+                            <div class="segment">
+                                Segmentation
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Segmentation
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Volume</a></li>
+                                    <li><a class="dropdown-item" href="#">Sources</a></li>
+                                    <li><a class="dropdown-item" href="#">Countries</a></li>
+                                    <li><a class="dropdown-item" href="#">Languages</a></li>
+                                    <li><a class="dropdown-item" href="#">Days Of Activity</a></li>
+                                    <li><a class="dropdown-item" href="#">Sentiment</a></li>
+                                    <li><a class="dropdown-item" href="#">Reach</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="data-visualization">
+                            <div class="data">
+                                Data Visualization
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Data Visualization
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Bar Chart</a></li>
+                                    <li><a class="dropdown-item" href="#">Line Chart</a></li>
+                                    <li><a class="dropdown-item" href="#">Stacked Area Chart</a></li>
+                                    <li><a class="dropdown-item" href="#">Normalized Stacked Area</a></li>
+                                    <li><a class="dropdown-item" href="#">Stacked Bar Chart</a></li>
+                                    <li><a class="dropdown-item" href="#">Pie Chart</a></li>
+                                    <li><a class="dropdown-item" href="#">Tree Map</a></li>
+                                    <li><a class="dropdown-item" href="#">Bubble</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="segmentation">
-                        <div class="segment">
-                            Segmentation
+                    <div id="filterview" style="margin-top:1rem;">
+                        <div class="alert-selection">
+                            <div class="alerts">
+                                Time Period
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Time Period
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Brand 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 4</a></li>
+                                    <li><a class="dropdown-item" href="#">Brand 5</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <button id="segment-link" class="btn btn-dark">Add Segmentation</button>
-                    </div>
-                    <div class="data-visualization">
-                        <div class="data">
-                            Data Visualization
+                        <div class="segmentation">
+                            <div class="segment">
+                                Language
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Language
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                                    <li><a class="dropdown-item" href="#">FRENCH</a></li>
+                                    <li><a class="dropdown-item" href="#">SPANISH</a></li>
+                                    <li><a class="dropdown-item" href="#">GERMAN</a></li>
+                                    <li><a class="dropdown-item" href="#">DANISH</a></li>
+                                    <li><a class="dropdown-item" href="#">SWISS</a></li>
+                                    <li><a class="dropdown-item" href="#">HINDI</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <button id="data-link" class="btn btn-dark">Add Visualixation</button>
+                        <div class="data-visualization">
+                            <div class="data">
+                                Country
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Country
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">USA</a></li>
+                                    <li><a class="dropdown-item" href="#">FRANCE</a></li>
+                                    <li><a class="dropdown-item" href="#">INDIA</a></li>
+                                    <li><a class="dropdown-item" href="#">ENGLAND</a></li>
+                                    <li><a class="dropdown-item" href="#">CHINA</a></li>
+                                    <li><a class="dropdown-item" href="#">JAPAN</a></li>
+                                    <li><a class="dropdown-item" href="#">RUSSIA</a></li>
+                                    <li><a class="dropdown-item" href="#">ITALY</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="data-visualization">
+                            <div class="data">
+                                Tags
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tags
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Tags</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="data-visualization">
+                            <div class="data">
+                                Sentiment
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sentiment
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Positive</a></li>
+                                    <li><a class="dropdown-item" href="#">Negative</a></li>
+                                    <li><a class="dropdown-item" href="#">Neutral</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="search">
+                            <div style="margin-bottom: -1rem;letter-spacing: 4px;">Search</div><br>
+                            <input type="text" name="search" placeholder="Search">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="screen6.js"></script>
 </body>
 
 </html>
